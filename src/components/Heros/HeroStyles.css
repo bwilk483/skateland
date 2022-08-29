@@ -1,0 +1,31 @@
+/* mask */
+.hero-container {
+  padding-top: 50px;
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+}
+
+/* into-img */
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+}
